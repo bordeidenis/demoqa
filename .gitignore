@@ -1,4 +1,38 @@
-.idea
-.pytest_cache
-env
+# pack
+.idea/
+
+#venv
+venv/
+
+#cache
 __pycache__/
+*.py[co]
+.pytest_cache/
+.DS_Store
+
+# logs
+logs/
+*.log
+
+# allure_report
+allure_report/
+/allure-report
+
+#webdriver
+*.exe
+
+#dockerfile
+Dockerfile
+
+#ignore_allure
+/**/results
+allure-results/
+
+lxml-4.7.1-pp38-pypy38_pp73-win_amd64.whl
+
+#vscode
+.vscode
+
+#pipenv
+Pipfile
+Pipfile.lock
